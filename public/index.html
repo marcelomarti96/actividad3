@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat Simple</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="chat-container">
+    <div id="chat-box">
+      <!-- Los mensajes se mostrarán aquí -->
+    </div>
+    <div class="input-group">
+      <input type="text" id="message-input" placeholder="Escribe tu mensaje aquí">
+      <button id="send-button" class="button">Enviar</button>
+      <button id="reset-button" class="button">Reiniciar</button>
+    </div>
+  </div>
+
+  <!-- Incluir Firebase SDK -->
+  <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-database.js"></script>
+  <!-- Incluir chat.js -->
+  <script src="chat.js"></script>
+</body>
+</html>
